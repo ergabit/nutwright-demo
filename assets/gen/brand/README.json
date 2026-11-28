@@ -1,0 +1,7 @@
+{
+ "icon-1024.png": "flat store/launcher icon, full bleed square (Play masks it)",
+ "adaptive-fg.png": "1024 transparent, emblem inside 66 % safe zone",
+ "adaptive-bg.png": "1024 opaque workshop gradient",
+ "adaptive-mono.png": "1024 white silhouette for Android 13 themed icons",
+ "splash-2732.jpg": "2732x2732 JPEG q93 (convert to PNG for android res if needed), emblem + wordmark (Baloo 2, OFL) centre-safe within 1200 px on workshop gradient"
+}

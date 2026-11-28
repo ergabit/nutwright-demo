@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./web-C0-RPQBt.js","./dist-BSHs01r2.js"])))=>i.map(i=>d[i]);
+import{registerPlugin as e}from"./dist-BSHs01r2.js";import{t}from"./index-BEhqawZ7.js";var n=e(`Preferences`,{web:()=>t(()=>import(`./web-C0-RPQBt.js`).then(e=>new e.PreferencesWeb),__vite__mapDeps([0,1]),import.meta.url)});export{n as Preferences};

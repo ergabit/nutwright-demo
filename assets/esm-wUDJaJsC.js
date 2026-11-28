@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./web-D-O-PVIT.js","./dist-BSHs01r2.js"])))=>i.map(i=>d[i]);
+import{registerPlugin as e}from"./dist-BSHs01r2.js";import{t}from"./index-BEhqawZ7.js";var n=e(`PlayGames`,{web:()=>t(()=>import(`./web-D-O-PVIT.js`).then(e=>new e.PlayGamesWeb),__vite__mapDeps([0,1]),import.meta.url)});export{n as PlayGames};

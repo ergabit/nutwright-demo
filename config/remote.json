@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "ads": {
+    "provider": "off",
+    "interstitialMinLevel": 6,
+    "interstitialMinGapSec": 180,
+    "interstitialFirstLaunchGraceSec": 300,
+    "interstitialMinLevelGap": 3,
+    "freeUndosPerLevel": 3,
+    "admob": {
+      "testMode": true
+    },
+    "adsense": {
+      "client": "ca-pub-0000000000000000",
+      "testMode": true
+    },
+    "house": []
+  },
+  "iap": {
+    "nativeEnabled": false
+  },
+  "cloud": {
+    "playGames": false,
+    "firebase": {
+      "enabled": false
+    }
+  },
+  "analytics": {
+    "firebase": false,
+    "bufferMax": 500
+  }
+}

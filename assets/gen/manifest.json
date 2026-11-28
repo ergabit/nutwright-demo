@@ -1,0 +1,2931 @@
+{
+ "version": 3,
+ "style": "A Toy Workshop",
+ "bg": {
+  "world01": {
+   "portrait": "bg/w01_portrait.webp",
+   "landscape": "bg/w01_landscape.webp"
+  },
+  "world02": {
+   "portrait": "bg/w02_portrait.webp",
+   "landscape": "bg/w02_landscape.webp"
+  },
+  "world03": {
+   "portrait": "bg/w03_portrait.webp",
+   "landscape": "bg/w03_landscape.webp"
+  }
+ },
+ "machine": {
+  "w01m1": {
+   "name": "Windmill",
+   "size": [
+    604,
+    811
+   ],
+   "full": "machine/w01m1/full.webp",
+   "parts": [
+    {
+     "key": "base",
+     "file": "machine/w01m1/p00_base.webp",
+     "x": 10,
+     "y": 615,
+     "w": 584,
+     "h": 186,
+     "depth": 0.0,
+     "build": 0,
+     "z": 0
+    },
+    {
+     "key": "tower",
+     "file": "machine/w01m1/p01_tower.webp",
+     "x": 114,
+     "y": 257,
+     "w": 376,
+     "h": 466,
+     "depth": 0.0,
+     "build": 1,
+     "z": 1
+    },
+    {
+     "key": "roof",
+     "file": "machine/w01m1/p04_roof.webp",
+     "x": 147,
+     "y": 85,
+     "w": 310,
+     "h": 208,
+     "depth": 0.0,
+     "build": 4,
+     "z": 2
+    },
+    {
+     "key": "window",
+     "file": "machine/w01m1/p03_window.webp",
+     "x": 249,
+     "y": 406,
+     "w": 106,
+     "h": 103,
+     "depth": -0.88,
+     "build": 3,
+     "z": 3
+    },
+    {
+     "key": "hub",
+     "file": "machine/w01m1/p05_hub.webp",
+     "x": 251,
+     "y": 202,
+     "w": 102,
+     "h": 109,
+     "depth": -1.0,
+     "build": 5,
+     "z": 4
+    },
+    {
+     "key": "bladeA",
+     "file": "machine/w01m1/p06_bladeA.webp",
+     "x": 275,
+     "y": 10,
+     "w": 280,
+     "h": 278,
+     "depth": -1.05,
+     "build": 6,
+     "z": 5
+    },
+    {
+     "key": "bladeB",
+     "file": "machine/w01m1/p07_bladeB.webp",
+     "x": 275,
+     "y": 234,
+     "w": 273,
+     "h": 270,
+     "depth": -1.05,
+     "build": 7,
+     "z": 6
+    },
+    {
+     "key": "bladeC",
+     "file": "machine/w01m1/p08_bladeC.webp",
+     "x": 56,
+     "y": 234,
+     "w": 273,
+     "h": 270,
+     "depth": -1.05,
+     "build": 8,
+     "z": 7
+    },
+    {
+     "key": "bladeD",
+     "file": "machine/w01m1/p09_bladeD.webp",
+     "x": 49,
+     "y": 10,
+     "w": 280,
+     "h": 278,
+     "depth": -1.05,
+     "build": 9,
+     "z": 8
+    },
+    {
+     "key": "door",
+     "file": "machine/w01m1/p02_door.webp",
+     "x": 244,
+     "y": 591,
+     "w": 116,
+     "h": 158,
+     "depth": -1.16,
+     "build": 2,
+     "z": 9
+    }
+   ],
+   "blueprint": "machine/w01m1/blueprint.webp",
+   "shadow": {
+    "file": "machine/w01m1/shadow.webp",
+    "x": -90,
+    "y": 0,
+    "w": 784,
+    "h": 859
+   }
+  },
+  "w01m2": {
+   "name": "Music box",
+   "size": [
+    783,
+    576
+   ],
+   "full": "machine/w01m2/full.webp",
+   "parts": [
+    {
+     "key": "lid",
+     "file": "machine/w01m2/p08_lid.webp",
+     "x": 79,
+     "y": 10,
+     "w": 536,
+     "h": 254,
+     "depth": 1.44,
+     "build": 8,
+     "z": 0
+    },
+    {
+     "key": "dancer",
+     "file": "machine/w01m2/p09_dancer.webp",
+     "x": 181,
+     "y": 97,
+     "w": 102,
+     "h": 177,
+     "depth": 0.9,
+     "build": 9,
+     "z": 1
+    },
+    {
+     "key": "crank",
+     "file": "machine/w01m2/p05_crank.webp",
+     "x": 631,
+     "y": 183,
+     "w": 142,
+     "h": 70,
+     "depth": 0.35,
+     "build": 5,
+     "z": 2
+    },
+    {
+     "key": "drum",
+     "file": "machine/w01m2/p03_drum.webp",
+     "x": 104,
+     "y": 153,
+     "w": 485,
+     "h": 152,
+     "depth": 0.2,
+     "build": 3,
+     "z": 3
+    },
+    {
+     "key": "base",
+     "file": "machine/w01m2/p00_base.webp",
+     "x": 20,
+     "y": 262,
+     "w": 654,
+     "h": 267,
+     "depth": 0.0,
+     "build": 0,
+     "z": 4
+    },
+    {
+     "key": "feet",
+     "file": "machine/w01m2/p02_feet.webp",
+     "x": 23,
+     "y": 367,
+     "w": 648,
+     "h": 177,
+     "depth": 0.0,
+     "build": 2,
+     "z": 5
+    },
+    {
+     "key": "comb",
+     "file": "machine/w01m2/p04_comb.webp",
+     "x": 142,
+     "y": 288,
+     "w": 410,
+     "h": 32,
+     "depth": -0.475,
+     "build": 4,
+     "z": 6
+    },
+    {
+     "key": "panel",
+     "file": "machine/w01m2/p01_panel.webp",
+     "x": 84,
+     "y": 412,
+     "w": 526,
+     "h": 88,
+     "depth": -1.365,
+     "build": 1,
+     "z": 7
+    },
+    {
+     "key": "gear1",
+     "file": "machine/w01m2/p06_gear1.webp",
+     "x": 10,
+     "y": 325,
+     "w": 279,
+     "h": 251,
+     "depth": -1.45,
+     "build": 6,
+     "z": 8
+    },
+    {
+     "key": "gear2",
+     "file": "machine/w01m2/p07_gear2.webp",
+     "x": 297,
+     "y": 406,
+     "w": 165,
+     "h": 164,
+     "depth": -1.5,
+     "build": 7,
+     "z": 9
+    }
+   ],
+   "blueprint": "machine/w01m2/blueprint.webp",
+   "shadow": {
+    "file": "machine/w01m2/shadow.webp",
+    "x": -117,
+    "y": 0,
+    "w": 1017,
+    "h": 624
+   }
+  },
+  "w01m3": {
+   "name": "Toy robot",
+   "size": [
+    583,
+    820
+   ],
+   "full": "machine/w01m3/full.webp",
+   "parts": [
+    {
+     "key": "legs",
+     "file": "machine/w01m3/p00_legs.webp",
+     "x": 138,
+     "y": 631,
+     "w": 308,
+     "h": 158,
+     "depth": 0.0,
+     "build": 0,
+     "z": 0
+    },
+    {
+     "key": "body",
+     "file": "machine/w01m3/p02_body.webp",
+     "x": 106,
+     "y": 356,
+     "w": 372,
+     "h": 321,
+     "depth": 0.0,
+     "build": 2,
+     "z": 1
+    },
+    {
+     "key": "armL",
+     "file": "machine/w01m3/p05_armL.webp",
+     "x": 10,
+     "y": 400,
+     "w": 124,
+     "h": 247,
+     "depth": 0.0,
+     "build": 5,
+     "z": 2
+    },
+    {
+     "key": "armR",
+     "file": "machine/w01m3/p06_armR.webp",
+     "x": 450,
+     "y": 400,
+     "w": 124,
+     "h": 247,
+     "depth": 0.0,
+     "build": 6,
+     "z": 3
+    },
+    {
+     "key": "head",
+     "file": "machine/w01m3/p07_head.webp",
+     "x": 145,
+     "y": 166,
+     "w": 294,
+     "h": 226,
+     "depth": 0.0,
+     "build": 7,
+     "z": 4
+    },
+    {
+     "key": "antenna",
+     "file": "machine/w01m3/p09_antenna.webp",
+     "x": 260,
+     "y": 10,
+     "w": 64,
+     "h": 175,
+     "depth": 0.0,
+     "build": 9,
+     "z": 5
+    },
+    {
+     "key": "feet",
+     "file": "machine/w01m3/p01_feet.webp",
+     "x": 116,
+     "y": 711,
+     "w": 352,
+     "h": 99,
+     "depth": -0.15,
+     "build": 1,
+     "z": 6
+    },
+    {
+     "key": "eyes",
+     "file": "machine/w01m3/p08_eyes.webp",
+     "x": 173,
+     "y": 222,
+     "w": 238,
+     "h": 137,
+     "depth": -0.707,
+     "build": 8,
+     "z": 7
+    },
+    {
+     "key": "chestgear",
+     "file": "machine/w01m3/p03_chestgear.webp",
+     "x": 204,
+     "y": 438,
+     "w": 176,
+     "h": 178,
+     "depth": -0.85,
+     "build": 3,
+     "z": 8
+    },
+    {
+     "key": "panel",
+     "file": "machine/w01m3/p04_panel.webp",
+     "x": 195,
+     "y": 603,
+     "w": 194,
+     "h": 78,
+     "depth": -0.873,
+     "build": 4,
+     "z": 9
+    }
+   ],
+   "blueprint": "machine/w01m3/blueprint.webp",
+   "shadow": {
+    "file": "machine/w01m3/shadow.webp",
+    "x": -87,
+    "y": 0,
+    "w": 757,
+    "h": 868
+   }
+  },
+  "w02m1": {
+   "name": "Cuckoo clock",
+   "size": [
+    522,
+    678
+   ],
+   "full": "machine/w02m1/full.webp",
+   "parts": [
+    {
+     "key": "base",
+     "file": "machine/w02m1/p00_base.webp",
+     "x": 42,
+     "y": 490,
+     "w": 438,
+     "h": 107,
+     "depth": 0.0,
+     "build": 0,
+     "z": 0
+    },
+    {
+     "key": "roof",
+     "file": "machine/w02m1/p02_roof.webp",
+     "x": 45,
+     "y": 10,
+     "w": 432,
+     "h": 230,
+     "depth": 0.0,
+     "build": 2,
+     "z": 1
+    },
+    {
+     "key": "weightL",
+     "file": "machine/w02m1/p08_weightL.webp",
+     "x": 10,
+     "y": 437,
+     "w": 46,
+     "h": 143,
+     "depth": -0.2,
+     "build": 8,
+     "z": 2
+    },
+    {
+     "key": "weightR",
+     "file": "machine/w02m1/p09_weightR.webp",
+     "x": 466,
+     "y": 437,
+     "w": 46,
+     "h": 143,
+     "depth": -0.2,
+     "build": 9,
+     "z": 3
+    },
+    {
+     "key": "house",
+     "file": "machine/w02m1/p01_house.webp",
+     "x": 69,
+     "y": 150,
+     "w": 384,
+     "h": 400,
+     "depth": -0.34,
+     "build": 1,
+     "z": 4
+    },
+    {
+     "key": "bird",
+     "file": "machine/w02m1/p06_bird.webp",
+     "x": 219,
+     "y": 167,
+     "w": 84,
+     "h": 83,
+     "depth": -0.525,
+     "build": 6,
+     "z": 5
+    },
+    {
+     "key": "dial",
+     "file": "machine/w02m1/p03_dial.webp",
+     "x": 119,
+     "y": 269,
+     "w": 284,
+     "h": 276,
+     "depth": -0.77,
+     "build": 3,
+     "z": 6
+    },
+    {
+     "key": "birddoor",
+     "file": "machine/w02m1/p05_birddoor.webp",
+     "x": 204,
+     "y": 175,
+     "w": 114,
+     "h": 88,
+     "depth": -0.78,
+     "build": 5,
+     "z": 7
+    },
+    {
+     "key": "hands",
+     "file": "machine/w02m1/p04_hands.webp",
+     "x": 246,
+     "y": 324,
+     "w": 84,
+     "h": 102,
+     "depth": -0.847,
+     "build": 4,
+     "z": 8
+    },
+    {
+     "key": "pendulum",
+     "file": "machine/w02m1/p07_pendulum.webp",
+     "x": 216,
+     "y": 473,
+     "w": 90,
+     "h": 197,
+     "depth": -0.9,
+     "build": 7,
+     "z": 9
+    }
+   ],
+   "blueprint": "machine/w02m1/blueprint.webp",
+   "shadow": {
+    "file": "machine/w02m1/shadow.webp",
+    "x": -78,
+    "y": 0,
+    "w": 678,
+    "h": 726
+   }
+  },
+  "w02m2": {
+   "name": "Orrery",
+   "size": [
+    840,
+    690
+   ],
+   "full": "machine/w02m2/full.webp",
+   "parts": [
+    {
+     "key": "base",
+     "file": "machine/w02m2/p00_base.webp",
+     "x": 87,
+     "y": 419,
+     "w": 692,
+     "h": 271,
+     "depth": 0.0,
+     "build": 0,
+     "z": 0
+    },
+    {
+     "key": "column",
+     "file": "machine/w02m2/p01_column.webp",
+     "x": 371,
+     "y": 276,
+     "w": 124,
+     "h": 256,
+     "depth": 0.0,
+     "build": 1,
+     "z": 1
+    },
+    {
+     "key": "sun",
+     "file": "machine/w02m2/p02_sun.webp",
+     "x": 337,
+     "y": 143,
+     "w": 192,
+     "h": 191,
+     "depth": 0.0,
+     "build": 2,
+     "z": 2
+    },
+    {
+     "key": "ring",
+     "file": "machine/w02m2/p03_ring.webp",
+     "x": 202,
+     "y": 10,
+     "w": 462,
+     "h": 460,
+     "depth": 0.0,
+     "build": 3,
+     "z": 3
+    },
+    {
+     "key": "arm1",
+     "file": "machine/w02m2/p04_arm1.webp",
+     "x": 432,
+     "y": 321,
+     "w": 272,
+     "h": 87,
+     "depth": 0.0,
+     "build": 4,
+     "z": 4
+    },
+    {
+     "key": "arm2",
+     "file": "machine/w02m2/p05_arm2.webp",
+     "x": 10,
+     "y": 227,
+     "w": 424,
+     "h": 112,
+     "depth": 0.0,
+     "build": 5,
+     "z": 5
+    },
+    {
+     "key": "arm3",
+     "file": "machine/w02m2/p06_arm3.webp",
+     "x": 432,
+     "y": 39,
+     "w": 380,
+     "h": 167,
+     "depth": -0.2,
+     "build": 6,
+     "z": 6
+    },
+    {
+     "key": "moon",
+     "file": "machine/w02m2/p07_moon.webp",
+     "x": 785,
+     "y": 146,
+     "w": 45,
+     "h": 45,
+     "depth": -0.2,
+     "build": 7,
+     "z": 7
+    },
+    {
+     "key": "gear",
+     "file": "machine/w02m2/p08_gear.webp",
+     "x": 105,
+     "y": 418,
+     "w": 229,
+     "h": 227,
+     "depth": -1.35,
+     "build": 8,
+     "z": 8
+    },
+    {
+     "key": "gear2",
+     "file": "machine/w02m2/p09_gear2.webp",
+     "x": 304,
+     "y": 489,
+     "w": 158,
+     "h": 158,
+     "depth": -1.45,
+     "build": 9,
+     "z": 9
+    }
+   ],
+   "blueprint": "machine/w02m2/blueprint.webp",
+   "shadow": {
+    "file": "machine/w02m2/shadow.webp",
+    "x": -126,
+    "y": 0,
+    "w": 1092,
+    "h": 738
+   }
+  },
+  "w02m3": {
+   "name": "Bell tower",
+   "size": [
+    730,
+    970
+   ],
+   "full": "machine/w02m3/full.webp",
+   "parts": [
+    {
+     "key": "base",
+     "file": "machine/w02m3/p00_base.webp",
+     "x": 222,
+     "y": 762,
+     "w": 384,
+     "h": 198,
+     "depth": 0.0,
+     "build": 0,
+     "z": 0
+    },
+    {
+     "key": "shaft",
+     "file": "machine/w02m3/p01_shaft.webp",
+     "x": 285,
+     "y": 450,
+     "w": 258,
+     "h": 374,
+     "depth": 0.0,
+     "build": 1,
+     "z": 1
+    },
+    {
+     "key": "belfry",
+     "file": "machine/w02m3/p04_belfry.webp",
+     "x": 268,
+     "y": 241,
+     "w": 292,
+     "h": 240,
+     "depth": 0.0,
+     "build": 4,
+     "z": 2
+    },
+    {
+     "key": "bell",
+     "file": "machine/w02m3/p05_bell.webp",
+     "x": 314,
+     "y": 249,
+     "w": 200,
+     "h": 214,
+     "depth": 0.0,
+     "build": 5,
+     "z": 3
+    },
+    {
+     "key": "roof",
+     "file": "machine/w02m3/p06_roof.webp",
+     "x": 202,
+     "y": 51,
+     "w": 424,
+     "h": 225,
+     "depth": 0.0,
+     "build": 6,
+     "z": 4
+    },
+    {
+     "key": "flag",
+     "file": "machine/w02m3/p09_flag.webp",
+     "x": 408,
+     "y": 0,
+     "w": 91,
+     "h": 75,
+     "depth": 0.0,
+     "build": 9,
+     "z": 5
+    },
+    {
+     "key": "door",
+     "file": "machine/w02m3/p02_door.webp",
+     "x": 365,
+     "y": 673,
+     "w": 98,
+     "h": 140,
+     "depth": -0.765,
+     "build": 2,
+     "z": 6
+    },
+    {
+     "key": "face",
+     "file": "machine/w02m3/p03_face.webp",
+     "x": 310,
+     "y": 464,
+     "w": 208,
+     "h": 204,
+     "depth": -0.795,
+     "build": 3,
+     "z": 7
+    },
+    {
+     "key": "weight",
+     "file": "machine/w02m3/p08_weight.webp",
+     "x": 652,
+     "y": 773,
+     "w": 68,
+     "h": 177,
+     "depth": -1.0,
+     "build": 8,
+     "z": 8
+    },
+    {
+     "key": "gear",
+     "file": "machine/w02m3/p07_gear.webp",
+     "x": 10,
+     "y": 702,
+     "w": 259,
+     "h": 254,
+     "depth": -1.1,
+     "build": 7,
+     "z": 9
+    }
+   ],
+   "blueprint": "machine/w02m3/blueprint.webp",
+   "shadow": {
+    "file": "machine/w02m3/shadow.webp",
+    "x": -109,
+    "y": 0,
+    "w": 948,
+    "h": 1018
+   }
+  },
+  "w03m1": {
+   "name": "Lighthouse",
+   "size": [
+    828,
+    1024
+   ],
+   "full": "machine/w03m1/full.webp",
+   "parts": [
+    {
+     "key": "tower",
+     "file": "machine/w03m1/p00_tower.webp",
+     "x": 260,
+     "y": 271,
+     "w": 348,
+     "h": 623,
+     "depth": 0.0,
+     "build": 0,
+     "z": 0
+    },
+    {
+     "key": "gallery",
+     "file": "machine/w03m1/p04_gallery.webp",
+     "x": 268,
+     "y": 215,
+     "w": 332,
+     "h": 104,
+     "depth": -0.0,
+     "build": 4,
+     "z": 1
+    },
+    {
+     "key": "lamp",
+     "file": "machine/w03m1/p05_lamp.webp",
+     "x": 348,
+     "y": 155,
+     "w": 172,
+     "h": 130,
+     "depth": 0.0,
+     "build": 5,
+     "z": 2
+    },
+    {
+     "key": "roof",
+     "file": "machine/w03m1/p06_roof.webp",
+     "x": 311,
+     "y": 0,
+     "w": 246,
+     "h": 165,
+     "depth": 0.0,
+     "build": 6,
+     "z": 3
+    },
+    {
+     "key": "rock",
+     "file": "machine/w03m1/p01_rock.webp",
+     "x": 57,
+     "y": 636,
+     "w": 761,
+     "h": 388,
+     "depth": -0.567,
+     "build": 1,
+     "z": 4
+    },
+    {
+     "key": "windows",
+     "file": "machine/w03m1/p03_windows.webp",
+     "x": 400,
+     "y": 447,
+     "w": 68,
+     "h": 238,
+     "depth": -0.893,
+     "build": 3,
+     "z": 5
+    },
+    {
+     "key": "door",
+     "file": "machine/w03m1/p02_door.webp",
+     "x": 374,
+     "y": 654,
+     "w": 119,
+     "h": 198,
+     "depth": -1.093,
+     "build": 2,
+     "z": 6
+    },
+    {
+     "key": "gear",
+     "file": "machine/w03m1/p07_gear.webp",
+     "x": 9,
+     "y": 738,
+     "w": 230,
+     "h": 225,
+     "depth": -1.2,
+     "build": 7,
+     "z": 7
+    }
+   ],
+   "blueprint": "machine/w03m1/blueprint.webp",
+   "shadow": {
+    "file": "machine/w03m1/shadow.webp",
+    "x": -124,
+    "y": 0,
+    "w": 1076,
+    "h": 1072
+   }
+  },
+  "w03m2": {
+   "name": "Tugboat",
+   "size": [
+    965,
+    615
+   ],
+   "full": "machine/w03m2/full.webp",
+   "parts": [
+    {
+     "key": "hull",
+     "file": "machine/w03m2/p00_hull.webp",
+     "x": 186,
+     "y": 350,
+     "w": 769,
+     "h": 217,
+     "depth": 0.0,
+     "build": 0,
+     "z": 0
+    },
+    {
+     "key": "deck",
+     "file": "machine/w03m2/p01_deck.webp",
+     "x": 195,
+     "y": 338,
+     "w": 749,
+     "h": 88,
+     "depth": 0.0,
+     "build": 1,
+     "z": 1
+    },
+    {
+     "key": "cabin",
+     "file": "machine/w03m2/p02_cabin.webp",
+     "x": 290,
+     "y": 185,
+     "w": 305,
+     "h": 214,
+     "depth": 0.0,
+     "build": 2,
+     "z": 2
+    },
+    {
+     "key": "funnel",
+     "file": "machine/w03m2/p04_funnel.webp",
+     "x": 371,
+     "y": 17,
+     "w": 147,
+     "h": 206,
+     "depth": 0.0,
+     "build": 4,
+     "z": 3
+    },
+    {
+     "key": "bowlamp",
+     "file": "machine/w03m2/p07_bowlamp.webp",
+     "x": 869,
+     "y": 313,
+     "w": 63,
+     "h": 84,
+     "depth": 0.0,
+     "build": 7,
+     "z": 4
+    },
+    {
+     "key": "ropecoil",
+     "file": "machine/w03m2/p08_ropecoil.webp",
+     "x": 626,
+     "y": 320,
+     "w": 123,
+     "h": 70,
+     "depth": 0.0,
+     "build": 8,
+     "z": 5
+    },
+    {
+     "key": "flag",
+     "file": "machine/w03m2/p09_flag.webp",
+     "x": 361,
+     "y": 10,
+     "w": 84,
+     "h": 156,
+     "depth": 0.0,
+     "build": 9,
+     "z": 6
+    },
+    {
+     "key": "portholes",
+     "file": "machine/w03m2/p03_portholes.webp",
+     "x": 338,
+     "y": 272,
+     "w": 209,
+     "h": 79,
+     "depth": -0.685,
+     "build": 3,
+     "z": 7
+    },
+    {
+     "key": "wheel",
+     "file": "machine/w03m2/p05_wheel.webp",
+     "x": 21,
+     "y": 286,
+     "w": 295,
+     "h": 290,
+     "depth": -1.015,
+     "build": 5,
+     "z": 8
+    },
+    {
+     "key": "paddles",
+     "file": "machine/w03m2/p06_paddles.webp",
+     "x": 10,
+     "y": 266,
+     "w": 311,
+     "h": 340,
+     "depth": -1.1,
+     "build": 6,
+     "z": 9
+    }
+   ],
+   "blueprint": "machine/w03m2/blueprint.webp",
+   "shadow": {
+    "file": "machine/w03m2/shadow.webp",
+    "x": -144,
+    "y": 0,
+    "w": 1253,
+    "h": 663
+   }
+  },
+  "w03m3": {
+   "name": "Harbour crane",
+   "size": [
+    837,
+    858
+   ],
+   "full": "machine/w03m3/full.webp",
+   "parts": [
+    {
+     "key": "counterweight",
+     "file": "machine/w03m3/p06_counterweight.webp",
+     "x": 677,
+     "y": 123,
+     "w": 150,
+     "h": 119,
+     "depth": 0.2,
+     "build": 6,
+     "z": 0
+    },
+    {
+     "key": "base",
+     "file": "machine/w03m3/p00_base.webp",
+     "x": 224,
+     "y": 627,
+     "w": 576,
+     "h": 172,
+     "depth": 0.0,
+     "build": 0,
+     "z": 1
+    },
+    {
+     "key": "tower",
+     "file": "machine/w03m3/p02_tower.webp",
+     "x": 408,
+     "y": 123,
+     "w": 208,
+     "h": 572,
+     "depth": 0.0,
+     "build": 2,
+     "z": 2
+    },
+    {
+     "key": "boom",
+     "file": "machine/w03m3/p05_boom.webp",
+     "x": 0,
+     "y": 100,
+     "w": 640,
+     "h": 62,
+     "depth": 0.0,
+     "build": 5,
+     "z": 3
+    },
+    {
+     "key": "rope",
+     "file": "machine/w03m3/p08_rope.webp",
+     "x": 29,
+     "y": 182,
+     "w": 26,
+     "h": 356,
+     "depth": -0.3,
+     "build": 8,
+     "z": 4
+    },
+    {
+     "key": "hook",
+     "file": "machine/w03m3/p09_hook.webp",
+     "x": 4,
+     "y": 523,
+     "w": 88,
+     "h": 124,
+     "depth": -0.3,
+     "build": 9,
+     "z": 5
+    },
+    {
+     "key": "pulley",
+     "file": "machine/w03m3/p07_pulley.webp",
+     "x": 0,
+     "y": 121,
+     "w": 88,
+     "h": 110,
+     "depth": -0.34,
+     "build": 7,
+     "z": 6
+    },
+    {
+     "key": "braces",
+     "file": "machine/w03m3/p03_braces.webp",
+     "x": 424,
+     "y": 254,
+     "w": 176,
+     "h": 386,
+     "depth": -0.4,
+     "build": 3,
+     "z": 7
+    },
+    {
+     "key": "cab",
+     "file": "machine/w03m3/p04_cab.webp",
+     "x": 542,
+     "y": 10,
+     "w": 200,
+     "h": 156,
+     "depth": -0.465,
+     "build": 4,
+     "z": 8
+    },
+    {
+     "key": "wheels",
+     "file": "machine/w03m3/p01_wheels.webp",
+     "x": 239,
+     "y": 724,
+     "w": 546,
+     "h": 132,
+     "depth": -1.15,
+     "build": 1,
+     "z": 9
+    }
+   ],
+   "blueprint": "machine/w03m3/blueprint.webp",
+   "shadow": {
+    "file": "machine/w03m3/shadow.webp",
+    "x": -125,
+    "y": 0,
+    "w": 1087,
+    "h": 906
+   }
+  },
+  "w04m1": {
+   "name": "Locomotive",
+   "size": [
+    890,
+    635
+   ],
+   "full": "machine/w04m1/full.webp",
+   "parts": [
+    {
+     "key": "base",
+     "file": "machine/w04m1/p00_base.webp",
+     "x": 10,
+     "y": 492,
+     "w": 856,
+     "h": 133,
+     "depth": 0.0,
+     "build": 0,
+     "z": 0
+    },
+    {
+     "key": "chassis",
+     "file": "machine/w04m1/p01_chassis.webp",
+     "x": 100,
+     "y": 380,
+     "w": 780,
+     "h": 173,
+     "depth": 0.0,
+     "build": 1,
+     "z": 1
+    },
+    {
+     "key": "cab",
+     "file": "machine/w04m1/p07_cab.webp",
+     "x": 74,
+     "y": 113,
+     "w": 260,
+     "h": 332,
+     "depth": -0.405,
+     "build": 7,
+     "z": 2
+    },
+    {
+     "key": "roof",
+     "file": "machine/w04m1/p08_roof.webp",
+     "x": 34,
+     "y": 72,
+     "w": 324,
+     "h": 83,
+     "depth": 0.0,
+     "build": 8,
+     "z": 3
+    },
+    {
+     "key": "boiler",
+     "file": "machine/w04m1/p04_boiler.webp",
+     "x": 293,
+     "y": 146,
+     "w": 531,
+     "h": 274,
+     "depth": 0.0,
+     "build": 4,
+     "z": 4
+    },
+    {
+     "key": "chimney",
+     "file": "machine/w04m1/p05_chimney.webp",
+     "x": 647,
+     "y": 10,
+     "w": 142,
+     "h": 180,
+     "depth": 0.0,
+     "build": 5,
+     "z": 5
+    },
+    {
+     "key": "dome",
+     "file": "machine/w04m1/p06_dome.webp",
+     "x": 381,
+     "y": 89,
+     "w": 209,
+     "h": 131,
+     "depth": 0.0,
+     "build": 6,
+     "z": 6
+    },
+    {
+     "key": "lamp",
+     "file": "machine/w04m1/p09_lamp.webp",
+     "x": 761,
+     "y": 121,
+     "w": 102,
+     "h": 151,
+     "depth": 0.0,
+     "build": 9,
+     "z": 7
+    },
+    {
+     "key": "wheels",
+     "file": "machine/w04m1/p02_wheels.webp",
+     "x": 68,
+     "y": 393,
+     "w": 732,
+     "h": 182,
+     "depth": -0.789,
+     "build": 2,
+     "z": 8
+    },
+    {
+     "key": "rod",
+     "file": "machine/w04m1/p03_rod.webp",
+     "x": 277,
+     "y": 408,
+     "w": 450,
+     "h": 108,
+     "depth": -0.925,
+     "build": 3,
+     "z": 9
+    }
+   ],
+   "blueprint": "machine/w04m1/blueprint.webp",
+   "shadow": {
+    "file": "machine/w04m1/shadow.webp",
+    "x": -133,
+    "y": 0,
+    "w": 1156,
+    "h": 683
+   }
+  },
+  "w04m2": {
+   "name": "Signal box",
+   "size": [
+    814,
+    668
+   ],
+   "full": "machine/w04m2/full.webp",
+   "parts": [
+    {
+     "key": "mast",
+     "file": "machine/w04m2/p06_mast.webp",
+     "x": 608,
+     "y": 10,
+     "w": 62,
+     "h": 538,
+     "depth": 0.2,
+     "build": 6,
+     "z": 0
+    },
+    {
+     "key": "base",
+     "file": "machine/w04m2/p00_base.webp",
+     "x": 188,
+     "y": 489,
+     "w": 516,
+     "h": 169,
+     "depth": 0.0,
+     "build": 0,
+     "z": 1
+    },
+    {
+     "key": "cabin",
+     "file": "machine/w04m2/p01_cabin.webp",
+     "x": 220,
+     "y": 258,
+     "w": 357,
+     "h": 312,
+     "depth": 0.0,
+     "build": 1,
+     "z": 2
+    },
+    {
+     "key": "roof",
+     "file": "machine/w04m2/p02_roof.webp",
+     "x": 193,
+     "y": 140,
+     "w": 409,
+     "h": 188,
+     "depth": 0.0,
+     "build": 2,
+     "z": 3
+    },
+    {
+     "key": "arm",
+     "file": "machine/w04m2/p07_arm.webp",
+     "x": 632,
+     "y": 33,
+     "w": 172,
+     "h": 88,
+     "depth": -0.02,
+     "build": 7,
+     "z": 4
+    },
+    {
+     "key": "lamp",
+     "file": "machine/w04m2/p08_lamp.webp",
+     "x": 594,
+     "y": 118,
+     "w": 107,
+     "h": 106,
+     "depth": -0.1,
+     "build": 8,
+     "z": 5
+    },
+    {
+     "key": "windows",
+     "file": "machine/w04m2/p03_windows.webp",
+     "x": 253,
+     "y": 355,
+     "w": 290,
+     "h": 95,
+     "depth": -0.82,
+     "build": 3,
+     "z": 6
+    },
+    {
+     "key": "door",
+     "file": "machine/w04m2/p04_door.webp",
+     "x": 500,
+     "y": 426,
+     "w": 83,
+     "h": 140,
+     "depth": -0.865,
+     "build": 4,
+     "z": 7
+    },
+    {
+     "key": "stairs",
+     "file": "machine/w04m2/p05_stairs.webp",
+     "x": 501,
+     "y": 520,
+     "w": 99,
+     "h": 128,
+     "depth": -1.367,
+     "build": 5,
+     "z": 8
+    },
+    {
+     "key": "gear",
+     "file": "machine/w04m2/p09_gear.webp",
+     "x": 10,
+     "y": 399,
+     "w": 329,
+     "h": 254,
+     "depth": -1.375,
+     "build": 9,
+     "z": 9
+    }
+   ],
+   "blueprint": "machine/w04m2/blueprint.webp",
+   "shadow": {
+    "file": "machine/w04m2/shadow.webp",
+    "x": -122,
+    "y": 0,
+    "w": 1058,
+    "h": 716
+   }
+  },
+  "w04m3": {
+   "name": "Water tower",
+   "size": [
+    568,
+    1004
+   ],
+   "full": "machine/w04m3/full.webp",
+   "parts": [
+    {
+     "key": "base",
+     "file": "machine/w04m3/p00_base.webp",
+     "x": 9,
+     "y": 785,
+     "w": 530,
+     "h": 209,
+     "depth": 0.0,
+     "build": 0,
+     "z": 0
+    },
+    {
+     "key": "legs",
+     "file": "machine/w04m3/p01_legs.webp",
+     "x": 75,
+     "y": 458,
+     "w": 398,
+     "h": 427,
+     "depth": 0.0,
+     "build": 1,
+     "z": 1
+    },
+    {
+     "key": "pipe",
+     "file": "machine/w04m3/p06_pipe.webp",
+     "x": 246,
+     "y": 464,
+     "w": 252,
+     "h": 399,
+     "depth": -0.4,
+     "build": 6,
+     "z": 2
+    },
+    {
+     "key": "braces",
+     "file": "machine/w04m3/p02_braces.webp",
+     "x": 96,
+     "y": 596,
+     "w": 356,
+     "h": 219,
+     "depth": -0.91,
+     "build": 2,
+     "z": 3
+    },
+    {
+     "key": "tank",
+     "file": "machine/w04m3/p03_tank.webp",
+     "x": 55,
+     "y": 206,
+     "w": 439,
+     "h": 346,
+     "depth": 0.0,
+     "build": 3,
+     "z": 4
+    },
+    {
+     "key": "roof",
+     "file": "machine/w04m3/p04_roof.webp",
+     "x": 40,
+     "y": 73,
+     "w": 468,
+     "h": 179,
+     "depth": 0.0,
+     "build": 4,
+     "z": 5
+    },
+    {
+     "key": "finial",
+     "file": "machine/w04m3/p05_finial.webp",
+     "x": 251,
+     "y": 0,
+     "w": 100,
+     "h": 90,
+     "depth": 0.0,
+     "build": 5,
+     "z": 6
+    },
+    {
+     "key": "spout",
+     "file": "machine/w04m3/p07_spout.webp",
+     "x": 494,
+     "y": 427,
+     "w": 64,
+     "h": 260,
+     "depth": -0.4,
+     "build": 7,
+     "z": 7
+    },
+    {
+     "key": "valve",
+     "file": "machine/w04m3/p09_valve.webp",
+     "x": 119,
+     "y": 752,
+     "w": 117,
+     "h": 114,
+     "depth": -1.017,
+     "build": 9,
+     "z": 8
+    },
+    {
+     "key": "ladder",
+     "file": "machine/w04m3/p08_ladder.webp",
+     "x": 30,
+     "y": 438,
+     "w": 86,
+     "h": 489,
+     "depth": -1.45,
+     "build": 8,
+     "z": 9
+    }
+   ],
+   "blueprint": "machine/w04m3/blueprint.webp",
+   "shadow": {
+    "file": "machine/w04m3/shadow.webp",
+    "x": -85,
+    "y": 0,
+    "w": 738,
+    "h": 1052
+   }
+  },
+  "w05m1": {
+   "name": "Sprinkler",
+   "size": [
+    782,
+    733
+   ],
+   "full": "machine/w05m1/full.webp",
+   "parts": [
+    {
+     "key": "base",
+     "file": "machine/w05m1/p00_base.webp",
+     "x": 50,
+     "y": 467,
+     "w": 692,
+     "h": 266,
+     "depth": 0.0,
+     "build": 0,
+     "z": 0
+    },
+    {
+     "key": "stand",
+     "file": "machine/w05m1/p01_stand.webp",
+     "x": 340,
+     "y": 299,
+     "w": 113,
+     "h": 266,
+     "depth": 0.0,
+     "build": 1,
+     "z": 1
+    },
+    {
+     "key": "globe",
+     "file": "machine/w05m1/p02_globe.webp",
+     "x": 249,
+     "y": 104,
+     "w": 294,
+     "h": 294,
+     "depth": 0.0,
+     "build": 2,
+     "z": 2
+    },
+    {
+     "key": "head",
+     "file": "machine/w05m1/p03_head.webp",
+     "x": 191,
+     "y": 14,
+     "w": 410,
+     "h": 126,
+     "depth": 0.0,
+     "build": 3,
+     "z": 3
+    },
+    {
+     "key": "nozzles",
+     "file": "machine/w05m1/p04_nozzles.webp",
+     "x": 144,
+     "y": 10,
+     "w": 503,
+     "h": 132,
+     "depth": -0.075,
+     "build": 4,
+     "z": 4
+    },
+    {
+     "key": "pipe",
+     "file": "machine/w05m1/p05_pipe.webp",
+     "x": 10,
+     "y": 518,
+     "w": 414,
+     "h": 86,
+     "depth": -0.9,
+     "build": 5,
+     "z": 5
+    },
+    {
+     "key": "pots",
+     "file": "machine/w05m1/p07_pots.webp",
+     "x": 555,
+     "y": 371,
+     "w": 147,
+     "h": 250,
+     "depth": -0.95,
+     "build": 7,
+     "z": 6
+    },
+    {
+     "key": "drops",
+     "file": "machine/w05m1/p09_drops.webp",
+     "x": 229,
+     "y": 206,
+     "w": 334,
+     "h": 165,
+     "depth": -1.2,
+     "build": 9,
+     "z": 7
+    },
+    {
+     "key": "valve",
+     "file": "machine/w05m1/p06_valve.webp",
+     "x": 101,
+     "y": 422,
+     "w": 130,
+     "h": 176,
+     "depth": -1.25,
+     "build": 6,
+     "z": 8
+    },
+    {
+     "key": "gear",
+     "file": "machine/w05m1/p08_gear.webp",
+     "x": 421,
+     "y": 475,
+     "w": 351,
+     "h": 256,
+     "depth": -1.35,
+     "build": 8,
+     "z": 9
+    }
+   ],
+   "blueprint": "machine/w05m1/blueprint.webp",
+   "shadow": {
+    "file": "machine/w05m1/shadow.webp",
+    "x": -117,
+    "y": 0,
+    "w": 1016,
+    "h": 781
+   }
+  },
+  "w05m2": {
+   "name": "Seed press",
+   "size": [
+    855,
+    823
+   ],
+   "full": "machine/w05m2/full.webp",
+   "parts": [
+    {
+     "key": "frame",
+     "file": "machine/w05m2/p01_frame.webp",
+     "x": 181,
+     "y": 87,
+     "w": 448,
+     "h": 542,
+     "depth": 0.4,
+     "build": 1,
+     "z": 0
+    },
+    {
+     "key": "screw",
+     "file": "machine/w05m2/p02_screw.webp",
+     "x": 353,
+     "y": 132,
+     "w": 104,
+     "h": 428,
+     "depth": 0.4,
+     "build": 2,
+     "z": 1
+    },
+    {
+     "key": "wheel",
+     "file": "machine/w05m2/p03_wheel.webp",
+     "x": 253,
+     "y": 10,
+     "w": 304,
+     "h": 70,
+     "depth": 0.4,
+     "build": 3,
+     "z": 2
+    },
+    {
+     "key": "plate",
+     "file": "machine/w05m2/p04_plate.webp",
+     "x": 271,
+     "y": 479,
+     "w": 268,
+     "h": 101,
+     "depth": 0.4,
+     "build": 4,
+     "z": 3
+    },
+    {
+     "key": "tray",
+     "file": "machine/w05m2/p05_tray.webp",
+     "x": 235,
+     "y": 538,
+     "w": 340,
+     "h": 105,
+     "depth": 0.4,
+     "build": 5,
+     "z": 4
+    },
+    {
+     "key": "base",
+     "file": "machine/w05m2/p00_base.webp",
+     "x": 80,
+     "y": 582,
+     "w": 650,
+     "h": 195,
+     "depth": 0.0,
+     "build": 0,
+     "z": 5
+    },
+    {
+     "key": "chute",
+     "file": "machine/w05m2/p07_chute.webp",
+     "x": 641,
+     "y": 585,
+     "w": 126,
+     "h": 120,
+     "depth": -0.8,
+     "build": 7,
+     "z": 6
+    },
+    {
+     "key": "seeds",
+     "file": "machine/w05m2/p06_seeds.webp",
+     "x": 268,
+     "y": 632,
+     "w": 272,
+     "h": 83,
+     "depth": -1.253,
+     "build": 6,
+     "z": 7
+    },
+    {
+     "key": "gear",
+     "file": "machine/w05m2/p09_gear.webp",
+     "x": 10,
+     "y": 539,
+     "w": 394,
+     "h": 274,
+     "depth": -1.425,
+     "build": 9,
+     "z": 8
+    },
+    {
+     "key": "pot",
+     "file": "machine/w05m2/p08_pot.webp",
+     "x": 645,
+     "y": 459,
+     "w": 200,
+     "h": 283,
+     "depth": -1.537,
+     "build": 8,
+     "z": 9
+    }
+   ],
+   "blueprint": "machine/w05m2/blueprint.webp",
+   "shadow": {
+    "file": "machine/w05m2/shadow.webp",
+    "x": -128,
+    "y": 0,
+    "w": 1111,
+    "h": 871
+   }
+  },
+  "w05m3": {
+   "name": "Glasshouse fan",
+   "size": [
+    712,
+    847
+   ],
+   "full": "machine/w05m3/full.webp",
+   "parts": [
+    {
+     "key": "stand",
+     "file": "machine/w05m3/p01_stand.webp",
+     "x": 279,
+     "y": 305,
+     "w": 154,
+     "h": 365,
+     "depth": 0.2,
+     "build": 1,
+     "z": 0
+    },
+    {
+     "key": "motor",
+     "file": "machine/w05m3/p02_motor.webp",
+     "x": 260,
+     "y": 146,
+     "w": 192,
+     "h": 196,
+     "depth": 0.183,
+     "build": 2,
+     "z": 1
+    },
+    {
+     "key": "base",
+     "file": "machine/w05m3/p00_base.webp",
+     "x": 10,
+     "y": 583,
+     "w": 692,
+     "h": 264,
+     "depth": 0.0,
+     "build": 0,
+     "z": 2
+    },
+    {
+     "key": "bladeA",
+     "file": "machine/w05m3/p05_bladeA.webp",
+     "x": 309,
+     "y": 49,
+     "w": 94,
+     "h": 215,
+     "depth": -0.85,
+     "build": 5,
+     "z": 3
+    },
+    {
+     "key": "bladeB",
+     "file": "machine/w05m3/p06_bladeB.webp",
+     "x": 355,
+     "y": 218,
+     "w": 215,
+     "h": 91,
+     "depth": -0.85,
+     "build": 6,
+     "z": 4
+    },
+    {
+     "key": "bladeC",
+     "file": "machine/w05m3/p07_bladeC.webp",
+     "x": 310,
+     "y": 262,
+     "w": 92,
+     "h": 209,
+     "depth": -0.85,
+     "build": 7,
+     "z": 5
+    },
+    {
+     "key": "bladeD",
+     "file": "machine/w05m3/p08_bladeD.webp",
+     "x": 142,
+     "y": 218,
+     "w": 215,
+     "h": 91,
+     "depth": -0.85,
+     "build": 8,
+     "z": 6
+    },
+    {
+     "key": "guard",
+     "file": "machine/w05m3/p03_guard.webp",
+     "x": 100,
+     "y": 9,
+     "w": 512,
+     "h": 507,
+     "depth": -1.0,
+     "build": 3,
+     "z": 7
+    },
+    {
+     "key": "hub",
+     "file": "machine/w05m3/p04_hub.webp",
+     "x": 305,
+     "y": 221,
+     "w": 102,
+     "h": 102,
+     "depth": -1.025,
+     "build": 4,
+     "z": 8
+    },
+    {
+     "key": "plant",
+     "file": "machine/w05m3/p09_plant.webp",
+     "x": 517,
+     "y": 450,
+     "w": 181,
+     "h": 291,
+     "depth": -1.12,
+     "build": 9,
+     "z": 9
+    }
+   ],
+   "blueprint": "machine/w05m3/blueprint.webp",
+   "shadow": {
+    "file": "machine/w05m3/shadow.webp",
+    "x": -106,
+    "y": 0,
+    "w": 924,
+    "h": 895
+   }
+  }
+ },
+ "nut": {
+  "red": {
+   "frames": [
+    "nut/red_0.webp",
+    "nut/red_1.webp",
+    "nut/red_2.webp",
+    "nut/red_3.webp",
+    "nut/red_4.webp",
+    "nut/red_5.webp",
+    "nut/red_6.webp",
+    "nut/red_7.webp"
+   ]
+  },
+  "orange": {
+   "frames": [
+    "nut/orange_0.webp",
+    "nut/orange_1.webp",
+    "nut/orange_2.webp",
+    "nut/orange_3.webp",
+    "nut/orange_4.webp",
+    "nut/orange_5.webp",
+    "nut/orange_6.webp",
+    "nut/orange_7.webp"
+   ]
+  },
+  "green": {
+   "frames": [
+    "nut/green_0.webp",
+    "nut/green_1.webp",
+    "nut/green_2.webp",
+    "nut/green_3.webp",
+    "nut/green_4.webp",
+    "nut/green_5.webp",
+    "nut/green_6.webp",
+    "nut/green_7.webp"
+   ]
+  },
+  "teal": {
+   "frames": [
+    "nut/teal_0.webp",
+    "nut/teal_1.webp",
+    "nut/teal_2.webp",
+    "nut/teal_3.webp",
+    "nut/teal_4.webp",
+    "nut/teal_5.webp",
+    "nut/teal_6.webp",
+    "nut/teal_7.webp"
+   ]
+  },
+  "blue": {
+   "frames": [
+    "nut/blue_0.webp",
+    "nut/blue_1.webp",
+    "nut/blue_2.webp",
+    "nut/blue_3.webp",
+    "nut/blue_4.webp",
+    "nut/blue_5.webp",
+    "nut/blue_6.webp",
+    "nut/blue_7.webp"
+   ]
+  },
+  "purple": {
+   "frames": [
+    "nut/purple_0.webp",
+    "nut/purple_1.webp",
+    "nut/purple_2.webp",
+    "nut/purple_3.webp",
+    "nut/purple_4.webp",
+    "nut/purple_5.webp",
+    "nut/purple_6.webp",
+    "nut/purple_7.webp"
+   ]
+  },
+  "hidden": {
+   "frames": [
+    "nut/hidden_0.webp",
+    "nut/hidden_1.webp",
+    "nut/hidden_2.webp",
+    "nut/hidden_3.webp",
+    "nut/hidden_4.webp",
+    "nut/hidden_5.webp",
+    "nut/hidden_6.webp",
+    "nut/hidden_7.webp"
+   ]
+  },
+  "_meta": {
+   "frameCount": 8,
+   "width": 256,
+   "note": "frames = slow spin loop (7.5 deg step, hex symmetry 60 deg); lift/drop motion is tweened by Core"
+  },
+  "yellow": {
+   "frames": [
+    "nut/yellow_0.webp",
+    "nut/yellow_1.webp",
+    "nut/yellow_2.webp",
+    "nut/yellow_3.webp",
+    "nut/yellow_4.webp",
+    "nut/yellow_5.webp",
+    "nut/yellow_6.webp",
+    "nut/yellow_7.webp"
+   ]
+  },
+  "pink": {
+   "frames": [
+    "nut/pink_0.webp",
+    "nut/pink_1.webp",
+    "nut/pink_2.webp",
+    "nut/pink_3.webp",
+    "nut/pink_4.webp",
+    "nut/pink_5.webp",
+    "nut/pink_6.webp",
+    "nut/pink_7.webp"
+   ]
+  },
+  "brown": {
+   "frames": [
+    "nut/brown_0.webp",
+    "nut/brown_1.webp",
+    "nut/brown_2.webp",
+    "nut/brown_3.webp",
+    "nut/brown_4.webp",
+    "nut/brown_5.webp",
+    "nut/brown_6.webp",
+    "nut/brown_7.webp"
+   ]
+  },
+  "lime": {
+   "frames": [
+    "nut/lime_0.webp",
+    "nut/lime_1.webp",
+    "nut/lime_2.webp",
+    "nut/lime_3.webp",
+    "nut/lime_4.webp",
+    "nut/lime_5.webp",
+    "nut/lime_6.webp",
+    "nut/lime_7.webp"
+   ]
+  },
+  "grey": {
+   "frames": [
+    "nut/grey_0.webp",
+    "nut/grey_1.webp",
+    "nut/grey_2.webp",
+    "nut/grey_3.webp",
+    "nut/grey_4.webp",
+    "nut/grey_5.webp",
+    "nut/grey_6.webp",
+    "nut/grey_7.webp"
+   ]
+  },
+  "white": {
+   "frames": [
+    "nut/white_0.webp",
+    "nut/white_1.webp",
+    "nut/white_2.webp",
+    "nut/white_3.webp",
+    "nut/white_4.webp",
+    "nut/white_5.webp",
+    "nut/white_6.webp",
+    "nut/white_7.webp"
+   ]
+  },
+  "navy": {
+   "frames": [
+    "nut/navy_0.webp",
+    "nut/navy_1.webp",
+    "nut/navy_2.webp",
+    "nut/navy_3.webp",
+    "nut/navy_4.webp",
+    "nut/navy_5.webp",
+    "nut/navy_6.webp",
+    "nut/navy_7.webp"
+   ]
+  },
+  "magenta": {
+   "frames": [
+    "nut/magenta_0.webp",
+    "nut/magenta_1.webp",
+    "nut/magenta_2.webp",
+    "nut/magenta_3.webp",
+    "nut/magenta_4.webp",
+    "nut/magenta_5.webp",
+    "nut/magenta_6.webp",
+    "nut/magenta_7.webp"
+   ]
+  }
+ },
+ "bolt": {
+  "file": "bolt/bolt.webp",
+  "w": 392,
+  "h": 874
+ },
+ "music": {
+  "menu": {
+   "ogg": "audio/music_menu.ogg",
+   "m4a": "audio/music_menu.m4a"
+  },
+  "world01": {
+   "ogg": "audio/music_w01.ogg",
+   "m4a": "audio/music_w01.m4a"
+  },
+  "world02": {
+   "ogg": "audio/music_w02.ogg",
+   "m4a": "audio/music_w02.m4a"
+  },
+  "world03": {
+   "ogg": "audio/music_w03.ogg",
+   "m4a": "audio/music_w03.m4a"
+  },
+  "win": {
+   "ogg": "audio/sfx_win.ogg",
+   "m4a": "audio/sfx_win.m4a"
+  },
+  "machine_complete": {
+   "ogg": "audio/sfx_machine_complete.ogg",
+   "m4a": "audio/sfx_machine_complete.m4a"
+  }
+ },
+ "sfx": {
+  "nut_pick": {
+   "ogg": "audio/sfx_nut_pick.ogg",
+   "m4a": "audio/sfx_nut_pick.m4a"
+  },
+  "nut_pick2": {
+   "ogg": "audio/sfx_nut_pick2.ogg",
+   "m4a": "audio/sfx_nut_pick2.m4a"
+  },
+  "nut_pick3": {
+   "ogg": "audio/sfx_nut_pick3.ogg",
+   "m4a": "audio/sfx_nut_pick3.m4a"
+  },
+  "nut_drop1": {
+   "ogg": "audio/sfx_nut_drop1.ogg",
+   "m4a": "audio/sfx_nut_drop1.m4a"
+  },
+  "nut_drop2": {
+   "ogg": "audio/sfx_nut_drop2.ogg",
+   "m4a": "audio/sfx_nut_drop2.m4a"
+  },
+  "nut_drop3": {
+   "ogg": "audio/sfx_nut_drop3.ogg",
+   "m4a": "audio/sfx_nut_drop3.m4a"
+  },
+  "nut_drop4": {
+   "ogg": "audio/sfx_nut_drop4.ogg",
+   "m4a": "audio/sfx_nut_drop4.m4a"
+  },
+  "invalid": {
+   "ogg": "audio/sfx_invalid.ogg",
+   "m4a": "audio/sfx_invalid.m4a"
+  },
+  "invalid2": {
+   "ogg": "audio/sfx_invalid2.ogg",
+   "m4a": "audio/sfx_invalid2.m4a"
+  },
+  "invalid3": {
+   "ogg": "audio/sfx_invalid3.ogg",
+   "m4a": "audio/sfx_invalid3.m4a"
+  },
+  "bolt_complete": {
+   "ogg": "audio/sfx_bolt_complete.ogg",
+   "m4a": "audio/sfx_bolt_complete.m4a"
+  },
+  "bolt_complete2": {
+   "ogg": "audio/sfx_bolt_complete2.ogg",
+   "m4a": "audio/sfx_bolt_complete2.m4a"
+  },
+  "win": {
+   "ogg": "audio/sfx_win.ogg",
+   "m4a": "audio/sfx_win.m4a"
+  },
+  "fail": {
+   "ogg": "audio/sfx_fail.ogg",
+   "m4a": "audio/sfx_fail.m4a"
+  },
+  "button_tap": {
+   "ogg": "audio/sfx_button_tap.ogg",
+   "m4a": "audio/sfx_button_tap.m4a"
+  },
+  "button_tap2": {
+   "ogg": "audio/sfx_button_tap2.ogg",
+   "m4a": "audio/sfx_button_tap2.m4a"
+  },
+  "button_tap3": {
+   "ogg": "audio/sfx_button_tap3.ogg",
+   "m4a": "audio/sfx_button_tap3.m4a"
+  },
+  "undo": {
+   "ogg": "audio/sfx_undo.ogg",
+   "m4a": "audio/sfx_undo.m4a"
+  },
+  "undo2": {
+   "ogg": "audio/sfx_undo2.ogg",
+   "m4a": "audio/sfx_undo2.m4a"
+  },
+  "hint": {
+   "ogg": "audio/sfx_hint.ogg",
+   "m4a": "audio/sfx_hint.m4a"
+  },
+  "padlock_open": {
+   "ogg": "audio/sfx_padlock_open.ogg",
+   "m4a": "audio/sfx_padlock_open.m4a"
+  },
+  "part_clank": {
+   "ogg": "audio/sfx_part_clank.ogg",
+   "m4a": "audio/sfx_part_clank.m4a"
+  },
+  "part_clank2": {
+   "ogg": "audio/sfx_part_clank2.ogg",
+   "m4a": "audio/sfx_part_clank2.m4a"
+  },
+  "machine_complete": {
+   "ogg": "audio/sfx_machine_complete.ogg",
+   "m4a": "audio/sfx_machine_complete.m4a"
+  },
+  "star1": {
+   "ogg": "audio/sfx_star1.ogg",
+   "m4a": "audio/sfx_star1.m4a"
+  },
+  "star2": {
+   "ogg": "audio/sfx_star2.ogg",
+   "m4a": "audio/sfx_star2.m4a"
+  },
+  "star3": {
+   "ogg": "audio/sfx_star3.ogg",
+   "m4a": "audio/sfx_star3.m4a"
+  },
+  "unlock": {
+   "ogg": "audio/sfx_unlock.ogg",
+   "m4a": "audio/sfx_unlock.m4a"
+  },
+  "timer_tick": {
+   "ogg": "audio/sfx_timer_tick.ogg",
+   "m4a": "audio/sfx_timer_tick.m4a"
+  },
+  "ice_crack": {
+   "ogg": "audio/sfx_ice_crack.ogg",
+   "m4a": "audio/sfx_ice_crack.m4a"
+  },
+  "spin_a": {
+   "ogg": "audio/sfx_spin_a.ogg",
+   "m4a": "audio/sfx_spin_a.m4a"
+  },
+  "spin_b": {
+   "ogg": "audio/sfx_spin_b.ogg",
+   "m4a": "audio/sfx_spin_b.m4a"
+  },
+  "cap_flip": {
+   "ogg": "audio/sfx_cap_flip.ogg",
+   "m4a": "audio/sfx_cap_flip.m4a"
+  },
+  "cap_flip2": {
+   "ogg": "audio/sfx_cap_flip2.ogg",
+   "m4a": "audio/sfx_cap_flip2.m4a"
+  }
+ },
+ "palette3": {
+  "version": 3,
+  "colours": [
+   {
+    "id": 0,
+    "name": "red",
+    "hex": "#EE1C33",
+    "rendered_hex": "#E3493E",
+    "pattern": "none"
+   },
+   {
+    "id": 1,
+    "name": "orange",
+    "hex": "#E38F22",
+    "rendered_hex": "#D18340",
+    "pattern": "ring"
+   },
+   {
+    "id": 2,
+    "name": "green",
+    "hex": "#097E10",
+    "rendered_hex": "#2E821C",
+    "pattern": "dot"
+   },
+   {
+    "id": 3,
+    "name": "sky",
+    "hex": "#3BC4FF",
+    "rendered_hex": "#76B6D1",
+    "pattern": "two dots"
+   },
+   {
+    "id": 4,
+    "name": "blue",
+    "hex": "#193E9A",
+    "rendered_hex": "#264E98",
+    "pattern": "stripe"
+   },
+   {
+    "id": 5,
+    "name": "purple",
+    "hex": "#9C67EF",
+    "rendered_hex": "#8471D4",
+    "pattern": "cross"
+   },
+   {
+    "id": 6,
+    "name": "yellow",
+    "hex": "#F9E21A",
+    "rendered_hex": "#D9BE6B",
+    "pattern": "chevron"
+   },
+   {
+    "id": 7,
+    "name": "pink",
+    "hex": "#E2478F",
+    "rendered_hex": "#D56484",
+    "pattern": "star"
+   },
+   {
+    "id": 8,
+    "name": "lime",
+    "hex": "#13D360",
+    "rendered_hex": "#62BE67",
+    "pattern": "triangle"
+   },
+   {
+    "id": 9,
+    "name": "white",
+    "hex": "#E6EEE8",
+    "rendered_hex": "#D2D1CA",
+    "pattern": "square"
+   },
+   {
+    "id": 10,
+    "name": "charcoal",
+    "hex": "#29262E",
+    "rendered_hex": "#3E3838",
+    "pattern": "slots"
+   },
+   {
+    "id": 11,
+    "name": "plum",
+    "hex": "#790457",
+    "rendered_hex": "#79284E",
+    "pattern": "knurl"
+   }
+  ]
+ },
+ "env": {
+  "hdri": {
+   "file": "../env/workshop_env.hdr",
+   "note": "Poly Haven carpentry_shop_02 (CC0), 896x448 RGBE, same light as the Blender renders"
+  }
+ },
+ "nut3": {
+  "0": {
+   "name": "red",
+   "pattern": "none",
+   "idle": {
+    "file": "r3/nut3/00_idle.webp",
+    "w": 256,
+    "h": 212
+   },
+   "spin": {
+    "file": "r3/nut3/00_spin.webp",
+    "frames": 12,
+    "cols": 4,
+    "frameW": 192,
+    "frameH": 159,
+    "stepDeg": 30
+   }
+  },
+  "1": {
+   "name": "orange",
+   "pattern": "ring",
+   "idle": {
+    "file": "r3/nut3/01_idle.webp",
+    "w": 256,
+    "h": 212
+   },
+   "spin": {
+    "file": "r3/nut3/01_spin.webp",
+    "frames": 12,
+    "cols": 4,
+    "frameW": 192,
+    "frameH": 159,
+    "stepDeg": 30
+   }
+  },
+  "2": {
+   "name": "green",
+   "pattern": "dot",
+   "idle": {
+    "file": "r3/nut3/02_idle.webp",
+    "w": 256,
+    "h": 212
+   },
+   "spin": {
+    "file": "r3/nut3/02_spin.webp",
+    "frames": 12,
+    "cols": 4,
+    "frameW": 192,
+    "frameH": 159,
+    "stepDeg": 30
+   }
+  },
+  "3": {
+   "name": "sky",
+   "pattern": "two dots",
+   "idle": {
+    "file": "r3/nut3/03_idle.webp",
+    "w": 256,
+    "h": 212
+   },
+   "spin": {
+    "file": "r3/nut3/03_spin.webp",
+    "frames": 12,
+    "cols": 4,
+    "frameW": 192,
+    "frameH": 159,
+    "stepDeg": 30
+   }
+  },
+  "4": {
+   "name": "blue",
+   "pattern": "stripe",
+   "idle": {
+    "file": "r3/nut3/04_idle.webp",
+    "w": 256,
+    "h": 212
+   },
+   "spin": {
+    "file": "r3/nut3/04_spin.webp",
+    "frames": 12,
+    "cols": 4,
+    "frameW": 192,
+    "frameH": 159,
+    "stepDeg": 30
+   }
+  },
+  "5": {
+   "name": "purple",
+   "pattern": "cross",
+   "idle": {
+    "file": "r3/nut3/05_idle.webp",
+    "w": 256,
+    "h": 212
+   },
+   "spin": {
+    "file": "r3/nut3/05_spin.webp",
+    "frames": 12,
+    "cols": 4,
+    "frameW": 192,
+    "frameH": 159,
+    "stepDeg": 30
+   }
+  },
+  "6": {
+   "name": "yellow",
+   "pattern": "chevron",
+   "idle": {
+    "file": "r3/nut3/06_idle.webp",
+    "w": 256,
+    "h": 212
+   },
+   "spin": {
+    "file": "r3/nut3/06_spin.webp",
+    "frames": 12,
+    "cols": 4,
+    "frameW": 192,
+    "frameH": 159,
+    "stepDeg": 30
+   }
+  },
+  "7": {
+   "name": "pink",
+   "pattern": "star",
+   "idle": {
+    "file": "r3/nut3/07_idle.webp",
+    "w": 256,
+    "h": 212
+   },
+   "spin": {
+    "file": "r3/nut3/07_spin.webp",
+    "frames": 12,
+    "cols": 4,
+    "frameW": 192,
+    "frameH": 159,
+    "stepDeg": 30
+   }
+  },
+  "8": {
+   "name": "lime",
+   "pattern": "triangle",
+   "idle": {
+    "file": "r3/nut3/08_idle.webp",
+    "w": 256,
+    "h": 212
+   },
+   "spin": {
+    "file": "r3/nut3/08_spin.webp",
+    "frames": 12,
+    "cols": 4,
+    "frameW": 192,
+    "frameH": 159,
+    "stepDeg": 30
+   }
+  },
+  "9": {
+   "name": "white",
+   "pattern": "square",
+   "idle": {
+    "file": "r3/nut3/09_idle.webp",
+    "w": 256,
+    "h": 212
+   },
+   "spin": {
+    "file": "r3/nut3/09_spin.webp",
+    "frames": 12,
+    "cols": 4,
+    "frameW": 192,
+    "frameH": 159,
+    "stepDeg": 30
+   }
+  },
+  "10": {
+   "name": "charcoal",
+   "pattern": "slots",
+   "idle": {
+    "file": "r3/nut3/10_idle.webp",
+    "w": 256,
+    "h": 212
+   },
+   "spin": {
+    "file": "r3/nut3/10_spin.webp",
+    "frames": 12,
+    "cols": 4,
+    "frameW": 192,
+    "frameH": 159,
+    "stepDeg": 30
+   }
+  },
+  "11": {
+   "name": "plum",
+   "pattern": "knurl",
+   "idle": {
+    "file": "r3/nut3/11_idle.webp",
+    "w": 256,
+    "h": 212
+   },
+   "spin": {
+    "file": "r3/nut3/11_spin.webp",
+    "frames": 12,
+    "cols": 4,
+    "frameW": 192,
+    "frameH": 159,
+    "stepDeg": 30
+   }
+  },
+  "hidden": {
+   "file": "r3/nut3/hidden.webp",
+   "w": 256,
+   "h": 212
+  },
+  "frozen": {
+   "file": "r3/nut3/frozen.webp",
+   "w": 256,
+   "h": 212
+  },
+  "padlock": {
+   "file": "r3/nut3/padlock.webp",
+   "w": 160,
+   "h": 162
+  },
+  "frozen_melt": {
+   "file": "r3/nut3/frozen_melt.webp",
+   "frames": 6,
+   "cols": 6,
+   "frameW": 192,
+   "frameH": 159,
+   "note": "frames left to right; frozen_melt overlays a nut (same crop as idle), padlock_open: shackle lifts then swings"
+  },
+  "padlock_open": {
+   "file": "r3/nut3/padlock_open.webp",
+   "frames": 6,
+   "cols": 6,
+   "frameW": 160,
+   "frameH": 183,
+   "note": "frames left to right; frozen_melt overlays a nut (same crop as idle), padlock_open: shackle lifts then swings"
+  }
+ },
+ "bolt3": {
+  "idle": {
+   "file": "r3/bolt3/idle.webp",
+   "w": 307,
+   "h": 1430
+  },
+  "glow": {
+   "file": "r3/bolt3/glow.webp",
+   "w": 307,
+   "h": 1430,
+   "blend": "ADD"
+  },
+  "cap": {
+   "file": "r3/bolt3/cap.webp",
+   "w": 115,
+   "h": 96
+  },
+  "base": {
+   "file": "r3/bolt3/base.webp",
+   "w": 307,
+   "h": 218
+  },
+  "shaft_tile": {
+   "file": "r3/bolt3/shaft_tile.webp",
+   "w": 260,
+   "h": 302,
+   "note": "seamless vertically; stack to any height, base at the bottom (overlap 20 px), cap on top"
+  },
+  "shadow": {
+   "file": "r3/bolt3/shadow.webp",
+   "w": 512,
+   "h": 320
+  }
+ },
+ "bg3": {
+  "world01": {
+   "far": {
+    "file": "r3/bg3/world01/far.webp",
+    "w": 1080,
+    "h": 1920
+   },
+   "far_land": {
+    "file": "r3/bg3/world01/far_land.webp",
+    "w": 1920,
+    "h": 1080
+   },
+   "fg": {
+    "file": "r3/bg3/world01/fg.webp",
+    "w": 1080,
+    "h": 1920
+   },
+   "fg_land": {
+    "file": "r3/bg3/world01/fg_land.webp",
+    "w": 1920,
+    "h": 1080
+   },
+   "tray": {
+    "file": "r3/bg3/world01/tray.webp",
+    "w": 1080,
+    "h": 1920
+   },
+   "tray_land": {
+    "file": "r3/bg3/world01/tray_land.webp",
+    "w": 1920,
+    "h": 1080
+   },
+   "vignette": {
+    "file": "r3/bg3/world01/vignette.webp",
+    "w": 1080,
+    "h": 1920
+   },
+   "vignette_land": {
+    "file": "r3/bg3/world01/vignette_land.webp",
+    "w": 1920,
+    "h": 1080
+   },
+   "tray_rect": [
+    43,
+    470,
+    994,
+    1172
+   ],
+   "tray_rect_land": [
+    652,
+    43,
+    616,
+    994
+   ]
+  },
+  "world02": {
+   "far": {
+    "file": "r3/bg3/world02/far.webp",
+    "w": 1080,
+    "h": 1920
+   },
+   "far_land": {
+    "file": "r3/bg3/world02/far_land.webp",
+    "w": 1920,
+    "h": 1080
+   },
+   "fg": {
+    "file": "r3/bg3/world02/fg.webp",
+    "w": 1080,
+    "h": 1920
+   },
+   "fg_land": {
+    "file": "r3/bg3/world02/fg_land.webp",
+    "w": 1920,
+    "h": 1080
+   },
+   "tray": {
+    "file": "r3/bg3/world02/tray.webp",
+    "w": 1080,
+    "h": 1920
+   },
+   "tray_land": {
+    "file": "r3/bg3/world02/tray_land.webp",
+    "w": 1920,
+    "h": 1080
+   },
+   "vignette": {
+    "file": "r3/bg3/world02/vignette.webp",
+    "w": 1080,
+    "h": 1920
+   },
+   "vignette_land": {
+    "file": "r3/bg3/world02/vignette_land.webp",
+    "w": 1920,
+    "h": 1080
+   },
+   "tray_rect": [
+    43,
+    470,
+    994,
+    1172
+   ],
+   "tray_rect_land": [
+    652,
+    43,
+    616,
+    994
+   ]
+  },
+  "world03": {
+   "far": {
+    "file": "r3/bg3/world03/far.webp",
+    "w": 1080,
+    "h": 1920
+   },
+   "far_land": {
+    "file": "r3/bg3/world03/far_land.webp",
+    "w": 1920,
+    "h": 1080
+   },
+   "fg": {
+    "file": "r3/bg3/world03/fg.webp",
+    "w": 1080,
+    "h": 1920
+   },
+   "fg_land": {
+    "file": "r3/bg3/world03/fg_land.webp",
+    "w": 1920,
+    "h": 1080
+   },
+   "tray": {
+    "file": "r3/bg3/world03/tray.webp",
+    "w": 1080,
+    "h": 1920
+   },
+   "tray_land": {
+    "file": "r3/bg3/world03/tray_land.webp",
+    "w": 1920,
+    "h": 1080
+   },
+   "vignette": {
+    "file": "r3/bg3/world03/vignette.webp",
+    "w": 1080,
+    "h": 1920
+   },
+   "vignette_land": {
+    "file": "r3/bg3/world03/vignette_land.webp",
+    "w": 1920,
+    "h": 1080
+   },
+   "tray_rect": [
+    43,
+    470,
+    994,
+    1172
+   ],
+   "tray_rect_land": [
+    652,
+    43,
+    616,
+    994
+   ]
+  },
+  "world04": {
+   "far": {
+    "file": "r3/bg3/world04/far.webp",
+    "w": 1080,
+    "h": 1920
+   },
+   "far_land": {
+    "file": "r3/bg3/world04/far_land.webp",
+    "w": 1920,
+    "h": 1080
+   },
+   "tray": {
+    "file": "r3/bg3/world04/tray.webp",
+    "w": 1080,
+    "h": 1920
+   },
+   "tray_land": {
+    "file": "r3/bg3/world04/tray_land.webp",
+    "w": 1920,
+    "h": 1080
+   },
+   "fg": {
+    "file": "r3/bg3/world04/fg.webp",
+    "w": 1080,
+    "h": 1920
+   },
+   "fg_land": {
+    "file": "r3/bg3/world04/fg_land.webp",
+    "w": 1920,
+    "h": 1080
+   },
+   "vignette": {
+    "file": "r3/bg3/world04/vignette.webp",
+    "w": 1080,
+    "h": 1920
+   },
+   "vignette_land": {
+    "file": "r3/bg3/world04/vignette_land.webp",
+    "w": 1920,
+    "h": 1080
+   },
+   "tray_rect": [
+    43,
+    470,
+    994,
+    1172
+   ],
+   "tray_rect_land": [
+    652,
+    43,
+    616,
+    994
+   ]
+  },
+  "world05": {
+   "far": {
+    "file": "r3/bg3/world05/far.webp",
+    "w": 1080,
+    "h": 1920
+   },
+   "far_land": {
+    "file": "r3/bg3/world05/far_land.webp",
+    "w": 1920,
+    "h": 1080
+   },
+   "tray": {
+    "file": "r3/bg3/world05/tray.webp",
+    "w": 1080,
+    "h": 1920
+   },
+   "tray_land": {
+    "file": "r3/bg3/world05/tray_land.webp",
+    "w": 1920,
+    "h": 1080
+   },
+   "fg": {
+    "file": "r3/bg3/world05/fg.webp",
+    "w": 1080,
+    "h": 1920
+   },
+   "fg_land": {
+    "file": "r3/bg3/world05/fg_land.webp",
+    "w": 1920,
+    "h": 1080
+   },
+   "vignette": {
+    "file": "r3/bg3/world05/vignette.webp",
+    "w": 1080,
+    "h": 1920
+   },
+   "vignette_land": {
+    "file": "r3/bg3/world05/vignette_land.webp",
+    "w": 1920,
+    "h": 1080
+   },
+   "tray_rect": [
+    43,
+    470,
+    994,
+    1172
+   ],
+   "tray_rect_land": [
+    652,
+    43,
+    616,
+    994
+   ]
+  }
+ },
+ "bg3_note": {
+  "layer_order": [
+   "far",
+   "tray",
+   "fg",
+   "vignette"
+  ],
+  "landscape_suffix": "_land",
+  "tray_rect": "[x, y, w, h] in canvas px (portrait 1080x1920 / landscape 1920x1080): the felt+rim; board should fill it",
+  "hud": "top 17 % and bottom 14 % are darkened by the vignette layer for white text"
+ },
+ "brand": {
+  "icon": "brand/icon-1024.png",
+  "adaptive_fg": "brand/adaptive-fg.png",
+  "adaptive_bg": "brand/adaptive-bg.png",
+  "adaptive_mono": "brand/adaptive-mono.png",
+  "splash": "brand/splash-2732.jpg",
+  "note": "Release hand-off (not loaded by the game). adaptive-fg keeps the emblem inside the 66 % safe zone; splash is centre-safe within 1200 px."
+ }
+}
